@@ -20,11 +20,13 @@ Streamlit	Interactive frontend UI
 Hugging Face Hub	AI model inference (LLMs like Zephyr, Phi-3)
 dotenv	Securing environment variables (tokens)
 
+
 📦 Installation (Local)
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/mindmate-ai-assistant.git
-cd mindmate-ai-assistant
+
+git clone https://github.com/Vineeshchowdary6826/mindmate-ai.git
+cd mindmate-ai
+pip install -r requirements.txt
+streamlit run main.py
+
 pip install -r requirements.txt
 streamlit run main.py
